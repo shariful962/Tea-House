@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,28 +15,56 @@
 
     <!-- css link  -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- tailwind v4 cdn  -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #da373d;
+          --color-dark1: #1C1C1C;
+          --color-dark2: #777777;
+          --font-Primary: "Manrope", serif;
+        }
+        .subtitle {
+            @apply font-medium text-dark2;
+        }
+    </style>
+
+
 </head>
-<body>
-    <header>
-        <div class="wrapper">
-            <div class="banner-content">
-                <div class="banner-left">
-                    <h1 class="title banner-title">It's good <br>tea time at The Tea House</h1>
-                    <P class="subtitle banner-desc">
-                        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
-                    </P>
-                    <button class="btn banner-btn">
-                        Explore More  <span><i class="fa-solid fa-arrow-right"></i></span>
-                    </button>
+
+<body class="font-Primary">
+    <header class="container md:container mx-auto mt-5">
+
+        <div class="banner-content flex flex-col lg:flex-row gap-5 justify-between items-center ">
+            <div class="banner-left ml-3 lg:ml-0">
+                <h1 class="lg:text-[5rem] text-6xl font-extrabold lg:leading-[100px] mb-7">
+                    It's good <br class="hidden lg:block"> tea time at <br class="hidden lg:block"> The Tea House
+                </h1>
+                <P class="subtitle leading-[30px] text-lg mb-7">
+                    Tea and Botanical Solutions Supplier Give Optimum <br class="hidden lg:block"> Satisfaction To Your Taste Buds.
+                </P>
+                <button class="btn text-white">
+                    Explore More <span><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></span>
+                </button>
+            </div>
+            <div class="banner-right max-w-[655px] border relative">
+                <img class="w-[100%]" src="./images/banner.png" alt="">
+                <div class="box bg-white rounded-lg w-[220px]  py-4 px-3 flex gap-2 items-center absolute bottom-0 lg:bottom-7 lg:left-[80px]">
+                    <div>
+                        <span class="text-[#FFC850] text-xl"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-3xl text-dark1">5.00</h1>
+                        <p class="text-base font-semibold text-dark2">Trust Pilot Ratings</p>
+                    </div>
                 </div>
-                <div class="banner-right">
-                    <img src="" alt="">
-                </div>
+
             </div>
         </div>
+
     </header>
     <main></main>
     <footer></footer>
 </body>
+
 </html>
