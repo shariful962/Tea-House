@@ -20,5 +20,26 @@
     border-radius: 10px;
 }
 
+/* great tea section  */
+.tea-content-left .tea-top  {
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+    border-radius: 10px;
+    opacity: .1;
+    margin-bottom: 30px;
+}
+.tea-content-left .left-image {
+    background: rgba(87, 118, 57, 0.1);
+    border-radius: 10px;
+}
+.tea-content-left .tea-bottom {
+    background: linear-gradient(90.00deg, rgb(217, 217, 217),rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+}
+.tea-content-left .left-image-bottom {
+    background: rgba(230, 166, 35, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
 
 
