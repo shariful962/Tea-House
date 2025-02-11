@@ -27,6 +27,9 @@
         .subtitle {
             @apply font-medium text-dark2;
         }
+        .title {
+            @apply text-[2.8125rem] text-dark1 font-extrabold;
+        }
     </style>
 
 
@@ -47,7 +50,7 @@
                     Explore More <span><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></span>
                 </button>
             </div>
-            <div class="banner-right max-w-[655px] border relative">
+            <div class="banner-right max-w-[655px]  relative">
                 <img class="w-[100%]" src="./images/banner.png" alt="">
                 <div class="box bg-white rounded-lg w-[220px]  py-4 px-3 flex gap-2 items-center absolute bottom-0 lg:bottom-7 lg:left-[80px]">
                     <div>
@@ -63,7 +66,56 @@
         </div>
 
     </header>
-    <main></main>
+    <main class="container md:container mx-auto">
+        <section class="feature mt-32">
+            <div class="feature-content">
+                <h1 class="title text-center">
+                    Our Featured Products
+                </h1>
+                <p class="subtitle max-w-[901px] mx-auto text-center mt-5">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                </p>
+                <div class="feature-box mt-12 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div class="feature-card text-center  py-6">
+                        <img class="inline-block" src="./images/tea-1.png" alt="tea-cup">
+                        <h1 class="text-2xl font-extrabold text-dark1 mt-7">
+                            Milk Tea
+                        </h1>
+                        <p class="text-base font-semibold text-dark2 mt-2">
+                            Creamer could be replaced <br> by fresh milk
+                        </p>
+                    </div>
+                    <div class="feature-card text-center   py-6">
+                        <img class="inline-block" src="./images/tea-2.png" alt="tea-cup">
+                        <h1 class="text-2xl font-extrabold text-dark1 mt-7">
+                            Black Tea
+                        </h1>
+                        <p class="text-base font-semibold text-dark2 mt-2">
+                            Creamer could be replaced <br> by fresh milk
+                        </p>
+                    </div>
+                    <div class="feature-card text-center  py-6">
+                        <img class="inline-block" src="./images/tea-3.png" alt="tea-cup">
+                        <h1 class="text-2xl font-extrabold text-dark1 mt-7">
+                            Lemon Tea
+                        </h1>
+                        <p class="text-base font-semibold text-dark2 mt-2">
+                            Creamer could be replaced <br> by fresh milk
+                        </p>
+                    </div>
+                    <div class="feature-card text-center  py-6">
+                        <img class="inline-block" src="./images/tea-4.png" alt="tea-cup">
+                        <h1 class="text-2xl font-extrabold text-dark1 mt-7">
+                            Green Tea
+                        </h1>
+                        <p class="text-base font-semibold text-dark2 mt-2">
+                            Creamer could be replaced <br> by fresh milk
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 

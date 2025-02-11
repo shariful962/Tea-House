@@ -14,5 +14,11 @@
 
 }
 
+/* feature section */
+.feature-box .feature-card {
+    background: linear-gradient(180.00deg, rgb(244, 244, 244),rgba(244, 244, 244, 0) 100%);
+    border-radius: 10px;
+}
+
 
 
