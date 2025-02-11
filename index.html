@@ -67,6 +67,7 @@
 
     </header>
     <main class="container md:container mx-auto">
+        <!-- feature section start  -->
         <section class="feature mt-32">
             <div class="feature-content">
                 <h1 class="title text-center">
@@ -115,6 +116,7 @@
                 </div>
             </div>
         </section>
+
         <section class="Tea mt-32">
             <div class="tea-content flex flex-col lg:flex-row  gap-6 lg:gap-28">
                 <div class="tea-content-left">
@@ -156,7 +158,9 @@
                 </div>
             </div>
         </section>
+        <!-- feature section end  -->
 
+        <!-- clients section start  -->
         <section class="clients mt-32">
             <div class="clients-content flex flex-col lg:flex-row lg:justify-around items-center py-16  gap-16">
                 <div class="left text-center  lg:text-left">
@@ -223,6 +227,10 @@
                 </div>
             </div>
         </section>
+        <!-- clients section end  -->
+
+
+        <!-- news section start  -->
         <section class="news mt-32">
             <div class="news-content">
                 <h1 class="title text-center">
@@ -280,8 +288,78 @@
                 </div>
             </div>
         </section>
+        <!-- news section end  -->
+
     </main>
-    <footer></footer>
+    <footer class="mt-32">
+        <div class="footer-content container md:container mx-auto py-32">
+            <div class="footer-top flex flex-col md:flex-row justify-between gap-5 ml-3 lg:ml-0">
+                <div>
+                    <img src="./images/cup.png" alt="cup-logo">
+                </div>
+                <div class="flex flex-col lg:flex-row gap-4 lg:items-center">
+                    <div class="text">
+                        <p class="text-dark2 text-xl font-medium">
+                            Ready to get strated?
+                        </p>
+                    </div>
+                    <button class="btn text-white w-[200px]">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+            <div class="footer-middle mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 ml-3 lg:ml-0">
+                
+                <div class="links">
+                    <h1 class="text-dark1 text-xl font-semibold mb-5">
+                        Quick Links
+                    </h1>
+                    <ul class="space-y-5">
+                        <li><a class="text-dark2 text-base font-normal" href="#">Home</a></li>
+                        <li><a class="text-dark2 text-base font-normal" href="#">About Us</a></li>
+                        <li><a class="text-dark2 text-base font-normal" href="#">Insurance</a></li>
+                        <li><a class="text-dark2 text-base font-normal" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <h1 class="text-dark1 text-xl font-semibold mb-5">
+                        Our Service
+                    </h1>
+                    <ul class="space-y-5">
+                        <li><a class="text-dark2 text-base font-normal" href="#">Life Insurance</a></li>
+                        <li><a class="text-dark2 text-base font-normal" href="#">Car Insurance</a></li>
+                        <li><a class="text-dark2 text-base font-normal" href="#">Health Insurance</a></li>
+                        <li><a class="text-dark2 text-base font-normal" href="#">House Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h1 class="text-dark1 text-xl font-semibold mb-5">
+                        Help
+                    </h1>
+                    <ul class="space-y-5">
+                        <li><a class="text-dark2 text-base font-normal" href="#">FAQs</a></li>
+                        <li><a class="text-dark2 text-base font-normal" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="subscribtion">
+                    <h1 class="text-dark1 text-xl font-semibold mb-10">
+                        Subscribe to our <br class="hidden lg:block"> newsletter
+                    </h1>
+                    <div class="input flex w-[400px]">
+                        <input type="email" placeholder="Email address" class="py-4 w-[95%] outline-none border-b-2">
+                        <div class="symbol h-12 w-12 flex justify-center items-center text-4xl text-white rounded-full">
+                            >
+                        </div>
+                    </div>
+                    <div class="icon-box mt-12">
+                        <span class="text-4xl text-dark1 mr-4"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="text-4xl text-dark1 mr-4"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="text-4xl text-dark1 mr-4"><i class="fa-brands fa-instagram"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
